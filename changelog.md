@@ -1,33 +1,29 @@
-#Change Log
+# Changelog
+All notable changes to this project will be documented in this file.
 
-Team membership:  AB (Captain) & CD (Mate)  
-Team conventions: Allman notation, markdown for changelog  
-Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## *Version x.x*
+## [Unreleased]
 
-Release Date: Jul 26, 2027
+## [0.0.2] - 2018-01-18
+###Added
+- Code Igniter Framework
+- welcome.php, about.php, gallery.php views added
+- controllers for about and gallery views
 
-## New Components
+###Changed 
+- Welcome.php controller opens welcome page instead of welcome_message
+- url links connect to controllers instead of static pages
 
--   controllers
+###Removed
+- welcome_message view deleted
 
-    -   serbian (AB)
-    
-## Updated Components
 
--   controllers
 
-    -   german (CD)
-    -   hindi (CD)
 
--   models
-
-    -   italian (AB)
-
--   views
-
-    -   slovenian (AB)
-    -   swedish
-
+## [0.0.1] - 2018-01-18
+### Added
+- New visual identity by Matthew and JC.
+- changelog document
 
