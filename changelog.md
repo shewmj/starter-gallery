@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.0.3] - 2018-01-18
+
+###Changed 
+- views/about.php to template.php
+- dynamically call content in the new template.php with {content} {pagetitle}
+
+###Removed
+- old template.php
+
 ## [0.0.2] - 2018-01-18
 ###Added
 - Code Igniter Framework
