@@ -6,6 +6,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+
+## [0.0.4] - 2018-01-18
+###Added
+- Images model to retrieve images from database
+- about.php readded to project
+- mysql database for images
+
+###Changed 
+- the gallery and welcome controllers to retrieve images from the database
+- the gallery and welcome views to get the table of images from the controller instead 
+	of hardcoded
+
+
+
 ## [0.0.3] - 2018-01-18
 
 ###Changed 
@@ -14,6 +28,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ###Removed
 - old template.php
+
 
 ## [0.0.2] - 2018-01-18
 ###Added
@@ -27,8 +42,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ###Removed
 - welcome_message view deleted
-
-
 
 
 ## [0.0.1] - 2018-01-18
