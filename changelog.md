@@ -1,33 +1,51 @@
-#Change Log
+# Changelog
+All notable changes to this project will be documented in this file.
 
-Team membership:  AB (Captain) & CD (Mate)  
-Team conventions: Allman notation, markdown for changelog  
-Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## *Version x.x*
+## [Unreleased]
 
-Release Date: Jul 26, 2027
 
-## New Components
+## [0.0.4] - 2018-01-18
+###Added
+- Images model to retrieve images from database
+- about.php readded to project
+- mysql database for images
 
--   controllers
+###Changed 
+- the gallery and welcome controllers to retrieve images from the database
+- the gallery and welcome views to get the table of images from the controller instead 
+	of hardcoded
 
-    -   serbian (AB)
-    
-## Updated Components
 
--   controllers
 
-    -   german (CD)
-    -   hindi (CD)
+## [0.0.3] - 2018-01-18
 
--   models
+###Changed 
+- views/about.php to template.php
+- dynamically call content in the new template.php with {content} {pagetitle}
 
-    -   italian (AB)
+###Removed
+- old template.php
 
--   views
 
-    -   slovenian (AB)
-    -   swedish
+## [0.0.2] - 2018-01-18
+###Added
+- Code Igniter Framework
+- welcome.php, about.php, gallery.php views added
+- controllers for about and gallery views
 
+###Changed 
+- Welcome.php controller opens welcome page instead of welcome_message
+- url links connect to controllers instead of static pages
+
+###Removed
+- welcome_message view deleted
+
+
+## [0.0.1] - 2018-01-18
+### Added
+- New visual identity by Matthew and JC.
+- changelog document
 
